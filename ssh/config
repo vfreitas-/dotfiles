@@ -1,0 +1,15 @@
+# Personal github
+Host github.com
+  HostName github.com
+  User git
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_rsa_github
+
+# Bitbucket account
+Host bitbucket.org
+  HostName bitbucket.org
+  User git
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_rsa_bitbucket
