@@ -1,0 +1,14 @@
+[user]
+	name = Vitor Buchalla
+	email = vitor_freitas_b@hotmail.com
+[color]
+	branch = auto
+	ui = auto
+[push]
+	default = simple
+[alias]
+	cp = cherry-pick
+[column]
+	ui = auto
+	status = never
+	branch = never
