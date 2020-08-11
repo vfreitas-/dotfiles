@@ -2,3 +2,7 @@
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
 	ignore = dirty
+[submodule "fonts"]
+	path = fonts
+	url = https://github.com/tonsky/FiraCode.git
+	ignore = dirty

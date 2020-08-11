@@ -5,3 +5,10 @@
     path: ssh/config
     create: true
   ~/.zshrc: zsh/zshrc
+  ~/Library/Fonts/: 
+    glob: true
+    create: true
+    path: fonts/distr/ttf/*
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
