@@ -1,0 +1,7 @@
+- clean: ['~']
+
+- link: 
+  ~/.ssh/config:
+    path: ssh/config
+    create: true
+  ~/.zshrc: zsh/zshrc
