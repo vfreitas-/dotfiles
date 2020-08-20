@@ -8,10 +8,3 @@
     ~/.ssh/config:
       path: ssh/config
       create: true
-
-- brewfile:
-    file: Brewfile
-    no-upgrage: true
-
-- shell:
-  - [sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"]
