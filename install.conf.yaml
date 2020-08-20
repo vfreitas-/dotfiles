@@ -8,3 +8,6 @@
     ~/.ssh/config:
       path: ssh/config
       create: true
+
+- brewfile:
+  - Brewfile
