@@ -1,4 +1,4 @@
-# dotfiles
+# Dotfiles
 My personal dotfiles configuration.
 
 ## Installation
@@ -7,3 +7,7 @@ My personal dotfiles configuration.
 $ git clone git@github.com:vfreitas-/dotfiles.git --recursive
 $ ./install
 ```
+
+## Tech
+
+- Dotbot
