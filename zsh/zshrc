@@ -8,5 +8,10 @@ source $ZSH/oh-my-zsh.sh
 
 alias gbr="git branch | grep -v "master" | xargs git branch -D"
 
+export GOPATH=$HOME/Sites
+export GOROOT=/usr/local/opt/go/libexec
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"

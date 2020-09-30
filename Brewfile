@@ -4,6 +4,7 @@ tap "homebrew/cask-fonts"
 
 brew "git"
 brew "httpie"
+brew "go"
 brew "nvm"
 brew "yarn"
 
