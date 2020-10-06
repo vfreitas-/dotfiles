@@ -17,11 +17,14 @@
     ~/.zshrc:
       path: zsh/zshrc
       force: true
+    ~/.oh-my-zsh/themes/dracula.zsh-theme:
+      path: zsh/theme/dracula.zsh-theme
+      force: true
     ~/.gitconfig: git/gitconfig
     ~/.ssh/config:
       path: ssh/config
       create: true
 
 - shell:
-  - [bash -c "source ./bash/nvm.sh", Configuring NVM and Node]
+  - [bash -c "source ./nvm/install.sh", Configuring NVM and Node]
   
