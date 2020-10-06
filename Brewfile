@@ -6,6 +6,7 @@ brew "git"
 brew "go"
 brew "httpie"
 brew "nvm"
+brew "rustup"
 brew "yarn"
 brew "zsh"
 
