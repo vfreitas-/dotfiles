@@ -10,6 +10,9 @@
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
 
+- brewfile:
+  - Brewfile
+
 - link: 
     ~/.zshrc:
       path: zsh/zshrc
@@ -18,9 +21,6 @@
     ~/.ssh/config:
       path: ssh/config
       create: true
-
-- brewfile:
-  - Brewfile
 
 - shell:
   - [bash -c "source ./bash/nvm.sh", Configuring NVM and Node]
