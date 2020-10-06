@@ -10,4 +10,5 @@ $ ./install
 
 ## Tech
 
-- Dotbot
+- [Dotbot](https://github.com/anishathalye/dotbot)
+- [Dotbot Brew](https://github.com/d12frosted/dotbot-brew)
