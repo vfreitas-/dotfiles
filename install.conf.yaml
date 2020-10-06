@@ -1,13 +1,27 @@
+- defaults:
+    link: 
+      relink: true
+    shell:
+      stdout: True
+      stderr: True
+
 - clean: ['~']
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
 
 - link: 
-    ~/.zshrc: zsh/zshrc
+    ~/.zshrc:
+      path: zsh/zshrc
+      force: true
+    ~/.gitconfig: git/gitconfig
     ~/.ssh/config:
       path: ssh/config
       create: true
 
 - brewfile:
   - Brewfile
+
+- shell:
+  - [bash -c "source ./bash/nvm.sh", Configuring NVM and Node]
+  
