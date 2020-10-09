@@ -12,7 +12,7 @@ brew "zsh"
 
 cask "dbeaver-community"
 cask "docker"
-cask "firefox"
+cask "firefox-developer-edition"
 cask "font-fira-code"
 cask "google-chrome"
 cask "hyper"
