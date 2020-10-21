@@ -7,4 +7,4 @@
 	url = https://github.com/d12frosted/dotbot-brew.git
 [submodule "zsh/theme"]
 	path = zsh/theme
-	url = git@github.com:dracula/zsh.git
+	url = https://github.com/dracula/zsh.git
