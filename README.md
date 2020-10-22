@@ -3,9 +3,9 @@ My personal dotfiles configuration.
 
 ## Installation
 
-```
-$ git clone git@github.com:vfreitas-/dotfiles.git --recursive
-$ ./install
+```bash
+git https://github.com/vfreitas-/dotfiles.git --recursive
+./install
 ```
 
 ## Tech
