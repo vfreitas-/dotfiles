@@ -4,8 +4,6 @@
 [color]
 	branch = auto
 	ui = auto
-[push]
-	default = simple
 [alias]
 	cp = cherry-pick
 [column]
