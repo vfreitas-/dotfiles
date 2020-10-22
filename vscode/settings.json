@@ -1,0 +1,11 @@
+{
+  "workbench.colorTheme": "Dracula",
+  "editor.fontSize": 16,
+  "editor.fontFamily": "'Fira Code'",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "window.zoomLevel": 1,
+  "tabnine.experimentalAutoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "never"
+}
