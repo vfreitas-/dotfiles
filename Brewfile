@@ -11,6 +11,7 @@ brew "yarn"
 brew "zsh"
 
 cask "dbeaver-community"
+cask "deezer"
 cask "docker"
 cask "firefox-developer-edition"
 cask "font-fira-code"
