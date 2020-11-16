@@ -1,10 +1,12 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
+tap "hashicorp/tap"
 
 brew "awscli"
 brew "git"
 brew "go"
+brew "hashicorp/tap/terraform"
 brew "httpie"
 brew "nginx"
 brew "nvm"
