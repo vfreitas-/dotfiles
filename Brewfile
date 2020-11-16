@@ -2,6 +2,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 
+brew "awscli"
 brew "git"
 brew "go"
 brew "httpie"
