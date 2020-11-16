@@ -6,6 +6,8 @@
 	ui = auto
 [alias]
 	cp = cherry-pick
+	skipwork = update-index --skip-worktree
+	undoskipwork = update-index --no-skip-worktree
 [column]
 	ui = auto
 	status = never
