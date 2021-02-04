@@ -5,8 +5,9 @@ ZSH_THEME="dracula"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+source $HOME/env-vars.sh
 
-alias gbr="git branch | grep -v "main|master" | xargs git branch -D"
+alias gbr="git branch | grep -v "main" | xargs git branch -D"
 
 export GOPATH=$HOME/Sites
 export GOROOT=/usr/local/opt/go/libexec
