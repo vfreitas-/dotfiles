@@ -12,3 +12,11 @@
 	ui = auto
 	status = never
 	branch = never
+[pull]
+	rebase = false
+[fetch]
+	prune = true
+[push]
+	default = current
+[diff]
+	colormoved = zebra
