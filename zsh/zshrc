@@ -8,6 +8,7 @@ source $ZSH/oh-my-zsh.sh
 source $HOME/env-vars.sh
 
 alias gbr="git branch | grep -v "main" | xargs git branch -D"
+alias g++="g++-10"
 
 export GOPATH=$HOME/Sites
 export GOROOT=/usr/local/opt/go/libexec
