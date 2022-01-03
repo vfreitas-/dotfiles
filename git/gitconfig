@@ -25,3 +25,7 @@
 	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
+[url "git@github.com:estrategiahq"]
+	insteadOf = https://github.com/estrategiahq
+[init]
+	defaultBranch = main
